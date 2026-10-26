@@ -1,0 +1,42 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.swp
+
+# Build output
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# User secrets / config
+appsettings.*.local.json
+**/appsettings.Production.json
+
+# Local Azure/EF tooling
+*.db
+*.db-shm
+*.db-wal
+
+# Node / React
+node_modules/
+dist/
+.vite/
+*.local
+src/web/package-lock.json
+
+# Test results
+TestResults/
+*.trx
+coverage/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+src/web/.env.example
